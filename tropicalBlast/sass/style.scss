@@ -1,0 +1,371 @@
+
+$crema: #FFFBDF;
+$verde: #76bd9c;
+$azul:#34656D ;
+$navy:#334443 ;
+$mainMargin:margin 2em 2em;
+
+body{
+    background-color: $verde;
+}
+
+  .nav-link{
+  color: $crema;
+  }
+
+  .navbar-nav{
+  color: $crema;
+  }
+
+  .row{
+  --bs-gutter-x: 0;
+  }
+
+
+  a{
+  text-decoration: none;
+  }
+
+.spacer{
+  padding: 2em 0 0 2.2em;
+}
+
+.spacerRegistro{
+  padding: 2em 0 0 3em;
+}
+
+.navColor{
+    background-color: $navy;
+}
+
+.photo{
+    background-image: url(../imgs/Intro.jpg);
+    width: 100%;
+    height: 287px;
+    background-repeat: none;
+    padding: 1em 16.5em;
+}
+
+.titles{
+    font-size: 42pt;
+    color: $azul;
+    border-bottom: 5px solid $crema;
+    margin: 2em .6em 1em;
+}
+
+.containerActivity1{
+    width: 401px;
+    height: 406px;
+    overflow:hidden;
+    background-image: url(../imgs/artista1.jpg);
+    border-radius: 1em;
+}
+
+.containerActivity2{
+  width: 401px;
+  height: 406px;
+  overflow:hidden;
+  background-image: url(../imgs/artista2.jpg);
+  border-radius: 1em;
+}
+
+.containerActivity3{
+  width: 401px;
+  height: 406px;
+  overflow:hidden;
+  background-image: url(../imgs/artista3.png);
+  border-radius: 1em;
+}
+
+  .containerInfo{
+    width: 100%;
+    height: 165px;
+    margin: 15.5em 0 0 0;
+    padding: 0 1em;
+  }
+
+  .containerSubAct{
+    width: 100%;
+    height: 6em;
+    margin: .5em 0em 0em 0;
+  }
+  
+  
+  .subTitle{
+    font-size: 25pt;
+    color: $crema;
+    text-align: center;
+  }
+
+  .textInfo{
+    font-size: 16pt;
+    color: $crema;
+  }
+
+  .textInfoDark{
+    font-size: 16pt;
+    color: $azul;
+  }
+
+  .text{
+    font-size: 12pt;
+    color: $crema;
+  }
+
+  .textDark{
+    font-size: 12pt;
+    color: $azul;
+  }
+
+  .textDetail{
+    font-size: 21pt;
+    color: $crema;
+    text-align: center;
+  }
+  
+.containerSubAct5{
+    width: 837px;
+    height: 142px;
+    overflow:hidden;
+    margin: 0em .9em 0em 0em;
+    padding: 0 1em;
+    background-image: url(../imgs/artista5.jpg);
+    border-radius: 1em;
+}
+
+.containerSubAct6{
+  width: 837px;
+  height: 142px;
+  overflow:hidden;
+  margin: 0em .9em 0em 0em;
+  padding: 0 1em;
+  background-image: url(../imgs/artista6.jpg);
+  border-radius: 1em;
+}
+
+.containerSubAct4{
+    width: 404.494px;
+    height: 142px;
+    overflow:hidden;
+    background-image: url(../imgs/artista4.jpg);
+    border-radius: 1em;
+    padding: 0 1em;
+    margin: 0em 0 0 1.5em;
+}
+
+.containerSubAct7{
+  width: 404.494px;
+  height: 142px;
+  overflow:hidden;
+  background-image: url(../imgs/artista7.jpg);
+  border-radius: 1em;
+  padding: 0 1em;
+}
+
+.containerLugar{
+  width: 837px;
+  height: 4.4em;
+  overflow:hidden;
+  margin: 0em .9em 0em 0em;
+}
+
+.containerLugarSmall{
+  width: 404.494px;
+  height: 4.4em;
+  overflow:hidden;
+}
+
+.containerFecha{
+  margin: 0 0 0 -9px;
+}
+
+.containerFechaLarge{
+  margin: 0 0 0 2.7em;
+}
+
+.containerFechaSmall{
+  margin: 0 0 0 .4em;
+}
+
+
+//Pagina detalle
+
+.contairnerCategoryDetail{
+  width: 822px;
+  height: 62px;
+  background-color: $crema;
+  padding: .4em 0;
+  opacity: 75%;
+}
+
+.titleCategory{
+  font-size: 28pt;
+  color: $azul;
+  text-align: center;
+}
+
+.containerPago{
+  height: 69px;
+  width: 241px;
+  background-color: $azul;
+  padding: 1em 0em;
+  margin: 8em 0em 0 51em;
+  opacity: 75%;
+}
+
+.containerFechaR{
+  padding: 0 0 0 25em;
+}
+
+.detailFoto{
+  height: 407.357px;
+  width: 399.726px;
+  background-color: $verde;
+  border-radius: 1em;
+}
+
+.containerDetail{
+  width: 824.808px;
+  height: 407.651px;
+  background-image: url(../imgs/infopop.png);
+  background-color: $azul;
+  padding: 2em 3em;
+  border-radius: 1em;
+}
+
+
+.containerBttnRegistro{
+  width: 100%;
+  height: 460px;
+  background-color: $azul;
+  padding: 4em 15em;
+  margin: 10em 5em 0 0;
+}
+
+.botonRegistrarse{
+  width: 193px ;
+  height: 77px;
+  background-color: $verde;
+  border-radius: 1.5em;
+  padding: .9em .8em;
+  margin: 0em 21em 9em;
+  border: solid;
+  border-color: $crema;
+  border-width: 10px;
+}
+
+.textBoton{
+  font-size: 18pt;
+  color: $azul;
+}
+
+.circulo {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url(../imgs/artista6.jpg);
+  padding: 1em 0;
+}
+
+.containerEventosRelacionados{
+  width: 5em;
+  height: 7em;
+  padding: 0em 0 0 1em;
+}
+
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: $navy;
+}
+
+
+
+
+
+
+//Registro
+
+.containerRegistro{
+  width: 1256px;
+  height: 840px;
+  background-color:  $azul;
+  border-radius: 3em;
+  padding: 0 2.5em;
+}
+
+.containerDescription{
+  width: 100%;
+  height: 12em;
+}
+
+
+.lines{
+  width: 98%;
+  height: 3px;
+  background-color: $crema;
+  margin: 0 12px;
+}
+
+.nextbackBttn{
+  padding: 2em 0;
+}
+
+.containerResumen{
+  width: 1256px;
+  height: 1155px;
+  background-color: $azul;
+  border-radius: 3em;
+  padding: 0 2.5em 0 2em;
+  margin: 0 0 5em;
+}
+
+.titlesRegistro{
+  font-size: 32pt;
+  color: $crema;
+  border-bottom: 5px solid;
+  text-align: center;
+  padding: 1.4em 0 .8em 0;
+  border-bottom: solid;
+}
+
+.textRegistro{
+  font-size: 14pt;
+  color: $crema;
+  padding: 3.4em 0px 0.8em 1em;
+}
+
+.subTitulleRegistro{
+  font-size: 24pt;
+  color: $crema;
+  padding: 1.7em 0 .8em 0;
+  
+}
+
+.textCostoTotal{
+  font-size: 32pt;
+  color: $crema;
+  padding: 1em 0 .8em 0;
+  text-align: center;
+}
+
+.submitt{
+  height: 42px;
+  width: 308px;
+  margin: 3.5em 0 .8em 0;
+  border-radius: 1em;
+  background-color: $crema;
+  text-align: center;
+}
+
+.obtenerInfo{
+  width: 85%;
+  height: 42px;
+  margin: 2.4em 0 1.8em 6em;
+  border-radius: 1em;
+  background-color: $crema;
+  text-align: center;
+}
