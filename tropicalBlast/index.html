@@ -1,14 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+
 
     <title>Tropical Blast</title>
 </head>
@@ -16,7 +16,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navColor">
         <div class="container-fluid">
-            <a class="navbar-brand title" href="../index.html">Logo</a>
+            <a class="navbar-brand logo" href="./index.html"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -25,14 +25,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="./index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Carrito</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./html/detail.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Categorias
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                      </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -50,172 +55,191 @@
     <h2 class="titles">Eventos</h2>
 
     <!--BLOQUE 1-->
-    <div class="row spacer">
-        <a class="col" href="./html/detail.html">
-            <div class="containerActivity1">
-                <div class="containerInfo">
-                    <h3 class="subTitle">Meghan Trainor</h3>
-                    <div class="row">
-                        <div class="col">
-                            <h4 class="textInfo">Pop</h4>
-                        </div>
-                        <div class="col-3">
-                            <div class="containerFecha">
-                                <h4 class="textInfo">22/7/2021</h4>
+    <div class="containerActivity">
+        <div class="row spacer">
+            <a class="col" href="./html/detail.html">
+                <div class="containerActivity1">
+                    <div class="containerInfo">
+                        <h3 class="subTitle">Meghan Trainor</h3>
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="textInfo">Pop</h4>
                             </div>
-                        </div>
-                    </div>
-                    <h4 class="textInfo">Lugar:<spam class="text"> Playa Jaco, frente a marea alta.</sapm>
-                    </h4>
-                </div>
-            </div>
-        </a>
-        <a class="col" href="./html/detail.html">
-            <div class="containerActivity2">
-                <div class="containerInfo">
-                    <h3 class="subTitle">Poppy</h3>
-                    <div class="row">
-                        <div class="col">
-                            <h4 class="textInfo">Rock</h4>
-                        </div>
-                        <div class="col-3">
-                            <div class="containerFecha">
-                                <h4 class="textInfo">4/6/2021</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <h4 class="textInfo">Lugar:<spam class="text"> Epicentro, parque de skate de Jaco.</sapm>
-                    </h4>
-                </div>
-            </div>
-        </a>
-        <a class="col" href="./html/detail.html">
-            <div class="containerActivity3">
-                <div class="containerInfo">
-                    <h3 class="subTitle">Melanie Martinez</h3>
-                    <div class="row align-items-start">
-                        <div class="col">
-                            <h4 class="textInfo">Alternativo</h4>
-                        </div>
-                        <div class="col-3">
-                            <div class="containerFecha">
+                            <div class="col-3">
                                 <div class="containerFecha">
-                                    <h4 class="textInfo">1/8/2021</h4>
+                                    <h4 class="textInfo">22/7/2021</h4>
                                 </div>
                             </div>
                         </div>
+                        <h4 class="textInfo">Lugar:<spam class="text"> Playa Jaco, frente a marea alta.</sapm>
+                        </h4>
                     </div>
-                    <h4 class="textInfo">Lugar:<spam class="text"> Jaco Walk.</sapm>
-                    </h4>
                 </div>
-            </div>
-        </a>
-
+            </a>
+            <a class="col" href="./html/detail.html">
+                <div class="containerActivity2">
+                    <div class="containerInfo">
+                        <h3 class="subTitle">Poppy</h3>
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="textInfo">Rock</h4>
+                            </div>
+                            <div class="col-3">
+                                <div class="containerFecha">
+                                    <h4 class="textInfo">4/6/2021</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="textInfo">Lugar:<spam class="text"> Epicentro, parque de skate de Jaco.</sapm>
+                        </h4>
+                    </div>
+                </div>
+            </a>
+            <a class="col" href="./html/detail.html">
+                <div class="containerActivity3">
+                    <div class="containerInfo">
+                        <h3 class="subTitle">Melanie Martinez</h3>
+                        <div class="row align-items-start">
+                            <div class="col">
+                                <h4 class="textInfo">Alternativo</h4>
+                            </div>
+                            <div class="col-3">
+                                <div class="containerFecha">
+                                    <div class="containerFecha">
+                                        <h4 class="textInfo">1/8/2021</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="textInfo">Lugar:<spam class="text"> Jaco Walk.</sapm>
+                        </h4>
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
 
     <!--BLOQUE 2-->
-    <div class="row spacer">
-        <div class="col">
-            <div class="containerSubAct5">
-                <div class="containerSubAct">
-                    <h3 class="subTitle">Titulo</h3>
-                </div>
-                <div class="row align-items-start">
-                    <div class="col-10">
-                        <h4 class="textInfo">Categoria</h4>
+    <div class="containerActivityA">
+        <div class="row spacer">
+            <div class="col">
+                <div class="containerSubAct5">
+                    <div class="containerSubAct">
+                        <h3 class="subTitle">Titulo</h3>
                     </div>
-                    <div class="col">
-                        <div class="containerFechaLarge">
-                            <h4 class="textInfo">1/8/2021</h4>
+                    <div class="row align-items-start">
+                        <div class="col-10">
+                            <h4 class="textInfo">Categoria</h4>
+                        </div>
+                        <div class="col">
+                            <div class="containerFechaLarge">
+                                <h4 class="textInfo">1/8/2021</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="containerLugar">
-                <h4 class="textInfoDark">Lugar:<spam class="textDark"> En este lugar no te vas a perder<spam>
-                </h4>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="containerSubAct4">
-                <div class="containerSubAct">
-                    <h3 class="subTitle">Titulo</h3>
+                <div class="containerLugar">
+                    <h4 class="textInfoDark">Lugar:<spam class="textDark"> En este lugar no te vas a perder<spam>
+                    </h4>
                 </div>
-                <div class="row align-items-start">
-                    <div class="col-9">
-                        <h4 class="textInfo">Categoria</h4>
+            </div>
+
+            <div class="col">
+                <div class="containerSubAct4">
+                    <div class="containerSubAct">
+                        <h3 class="subTitle">Titulo</h3>
                     </div>
-                    <div class="col">
-                        <div class="containerFechaSmall">
-                            <h4 class="textInfo">1/8/2021</h4>
+                    <div class="row align-items-start">
+                        <div class="col-9">
+                            <h4 class="textInfo">Categoria</h4>
+                        </div>
+                        <div class="col">
+                            <div class="containerFechaSmall">
+                                <h4 class="textInfo">1/8/2021</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="containerLugarSmall">
-                <h4 class="textInfoDark">Lugar:<spam class="textDark"> En este lugar no te vas a perder<spam>
-                </h4>
+                <div class="containerLugarSmall">
+                    <h4 class="textInfoDark lugarpad">Lugar:<spam class="textDark"> En este lugar no te vas a perder
+                            <spam>
+                    </h4>
+                </div>
             </div>
         </div>
-
     </div>
 
     <!--BLOQUE 3-->
 
-    <div class="row spacer">
+    <div class="containerActivityB">
+        <div class="row spacer">
 
-        <div class="col-4">
-            <div class="containerSubAct7">
-                <div class="containerSubAct">
-                    <h3 class="subTitle">Titulo</h3>
-                </div>
-                <div class="row align-items-start">
-                    <div class="col-9">
-                        <h4 class="textInfo">Categoria</h4>
+            <div class="col-4">
+                <div class="containerSubAct7">
+                    <div class="containerSubAct">
+                        <h3 class="subTitle">Titulo</h3>
                     </div>
-                    <div class="col">
-                        <div class="containerFechaSmall">
-                            <h4 class="textInfo">1/8/2021</h4>
+                    <div class="row align-items-start">
+                        <div class="col-9">
+                            <h4 class="textInfo">Categoria</h4>
+                        </div>
+                        <div class="col">
+                            <div class="containerFechaSmall">
+                                <h4 class="textInfo">1/8/2021</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="containerLugarSmall">
-                <h4 class="textInfoDark">Lugar: <spam class="textDark"> En este lugar no te vas a perder<spam>
-                </h4>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="containerSubAct6">
-                <div class="containerSubAct">
-                    <h3 class="subTitle">Titulo</h3>
+                <div class="containerLugarSmall">
+                    <h4 class="textInfoDark">Lugar: <spam class="textDark"> En este lugar no te vas a perder<spam>
+                    </h4>
                 </div>
-                <div class="row align-items-start">
-                    <div class="col-10">
-                        <h4 class="textInfo">Categoria</h4>
+            </div>
+
+            <div class="col">
+                <div class="containerSubAct6">
+                    <div class="containerSubAct">
+                        <h3 class="subTitle">Titulo</h3>
                     </div>
-                    <div class="col">
-                        <div class="containerFechaLarge">
-                            <h4 class="textInfo">1/8/2021</h4>
+                    <div class="row align-items-start">
+                        <div class="col-10">
+                            <h4 class="textInfo">Categoria</h4>
+                        </div>
+                        <div class="col">
+                            <div class="containerFechaLarge">
+                                <h4 class="textInfo">1/8/2021</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="containerLugar">
-                <h4 class="textInfoDark">Lugar: <spam class="textDark"> En este lugar no te vas a perder<spam>
-                </h4>
+                <div class="containerLugar">
+                    <h4 class="textInfoDark">Lugar: <spam class="textDark"> En este lugar no te vas a perder<spam>
+                    </h4>
+                </div>
             </div>
         </div>
-
     </div>
 
     <!--Footer-->
 
+    <footer>
     <div class="footer">
+   
+        <p class="footertext">Siguenos:</p>
 
-    </div>
+        <div class="socials">
+            <ul class="footerNavigator">
+                <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-twitter"></i></a></li>
+              </ul>
+        </div>
+        <p class="footertext"> copyright &copy;2021 TropycalBlast. </p>
+    </div>      
+    </footer>
+
+      <!--Fin Footer-->
+
 </body>
 
 </html>
