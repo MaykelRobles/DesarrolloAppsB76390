@@ -13,17 +13,14 @@ body{
 
 .logo{
   background-image: url(../imgs/Logo.png);
-  width: 1.7em;
+  width: 3.1em;
   height: 1.7em;
+  background-repeat: no-repeat;
 }
 
-  .nav-link{
+.nav-link {
   color: $crema;
-  }
-
-  .navbar-nav{
-  color: $crema;
-  }
+}
 
   .row{
   --bs-gutter-x: 0;
@@ -51,7 +48,7 @@ body{
 
 //index
 
-.photo{
+.photoHeader{
     background-image: url(../imgs/Intro.jpg);
     width: 100%;
     height: 287px;
@@ -70,6 +67,7 @@ body{
     color: $azul;
     border-bottom: 5px solid $crema;
     margin: 2em .6em 1em;
+    font-family: 'Trade Winds';
     @include respond-to($phone){
       font-size: 21pt;
       border-bottom: 2px solid $crema;
@@ -123,6 +121,7 @@ body{
     @include respond-to($phone){
       width: 96px;
       height: 208px;
+      background-image: url(../imgs/artista6.jpg);
     }
     @include respond-to($tablet-landscape){
       width: 215px;
@@ -138,6 +137,7 @@ body{
   @include respond-to($phone){
     width: 96px;
     height: 208px;
+    background-image: url(../imgs/artista6.jpg);
   }
   @include respond-to($tablet-landscape){
     width: 215px;
@@ -153,6 +153,7 @@ body{
   @include respond-to($phone){
     width: 96px;
     height: 208px;
+    background-image: url(../imgs/artista6.jpg);
   }
   @include respond-to($tablet-landscape){
     width: 215px;
@@ -171,7 +172,8 @@ body{
     padding: 0 1em;
     @include respond-to($phone){
       height: 10px;
-      margin: 7.5em 0 0 0;
+      margin: 5.5em 0 0 0;
+      padding: 0 .5em;
     }
   }
 
@@ -182,77 +184,10 @@ body{
 
     @include respond-to($phone){
       height: 1em;
+      margin: .5em 0em 1em 0;
     }
   }
   
-  
-  .subTitle{
-    font-size: 25pt;
-    color: $crema;
-    text-align: center;
-    @include respond-to($phone){
-      font-size: 9pt;
-    }
-    @include respond-to($tablet-landscape){
-      font-size: 16pt;
-    }
-  }
-
-  .textInfo{
-    font-size: 16pt;
-    color: $crema;
-    @include respond-to($phone){
-      font-size: 9pt;
-    }
-    @include respond-to($tablet-landscape){
-      font-size: 14pt;
-    }
-  }
-
-  .textInfoDark{
-    font-size: 16pt;
-    color: $azul;
-    @include respond-to($phone){
-      font-size: 9pt;
-    }
-    @include respond-to($tablet-landscape){
-      font-size: 14pt;
-    }   
-  }
-
-  .text{
-    font-size: 12pt;
-    color: $crema;
-    @include respond-to($phone){
-      font-size: 9pt;
-    }
-    @include respond-to($tablet-landscape){
-      font-size: 12pt;
-    }
-  }
-
-  .textDark{
-    font-size: 12pt;
-    color: $azul;
-    @include respond-to($phone){
-      font-size: 9pt;
-    }
-    @include respond-to($tablet-landscape){
-      font-size: 12pt;
-    }
-  }
-
-  .textDetail{
-    font-size: 21pt;
-    color: $crema;
-    text-align: center;
-    @include respond-to($phone){
-      font-size: 9pt;
-    }
-    @include respond-to($tablet-landscape){
-      font-size: 12pt;
-    }
-  }
   
 .containerSubAct5{
     width: 837px;
@@ -297,9 +232,10 @@ body{
     padding: 0 1em;
     margin: 0em 0 0 1.5em;
     @include respond-to($phone){
-      width: 106px;
+      width: 115px;
       height: 66px;
       margin: 0;
+      padding: 0 .1em;
     }
     @include respond-to($tablet-landscape){
       width: 215px;
@@ -315,8 +251,9 @@ body{
   border-radius: 1em;
   padding: 0 1em;
   @include respond-to($phone){
-    width: 106px;
+    width: 115px;
     height: 66px;
+    padding: 0 .1em;
   }
   @include respond-to($tablet-landscape){
     width: 215px;
@@ -352,22 +289,105 @@ body{
 
 .containerFecha{
   margin: 0 0 0 -9px;
+  @include respond-to($phone){
+    margin: 0 0 0 -1.3em;
+  }
   @include respond-to($tablet-landscape){
-    margin: 0 0 0 -.5em;
+    margin: 0 0 0 -2.5em;
   }
 }
 
 .containerFechaLarge{
   margin: 0 0 0 2.7em;
+  @include respond-to($phone){
+    margin: 0 0 0 -1.4em;
+  }
   @include respond-to($tablet-landscape){
-    margin: 0 0 0 -.2em;
+    margin: 0 0 0 -1.2em;
   }
 }
 
 .containerFechaSmall{
   margin: 0 0 0 .4em;
+  @include respond-to($phone){
+    margin: 0 0 0 -1.3em;
+  }
   @include respond-to($tablet-landscape){
-    margin: 0 0 0 -1.7em;
+    margin: 0 0 0 -1.9em;
+  }
+}
+
+.subTitle{
+  font-size: 25pt;
+  color: $crema;
+  text-align: center;
+  font-family: 'Righteous';
+  @include respond-to($phone){
+    font-size: 10pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 16pt;
+  }
+}
+
+.textInfo{
+  font-size: 16pt;
+  color: $crema;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 14pt;
+  }
+}
+
+.textInfoDark{
+  font-size: 16pt;
+  color: $azul;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 14pt;
+  }   
+}
+
+.text{
+  font-size: 12pt;
+  color: $crema;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 12pt;
+  }
+}
+
+.textDark{
+  font-size: 12pt;
+  color: $azul;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 12pt;
+  }
+}
+
+.textDetail{
+  font-size: 21pt;
+  color: $crema;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 12pt;
   }
 }
 
@@ -402,7 +422,7 @@ body{
   }
 }
 
-.containerPago{
+.containerCosto{
   height: 69px;
   width: 241px;
   background-color: $azul;
@@ -492,7 +512,7 @@ body{
   height: 77px;
   background-color: $crema;
   border-radius: 1.5em;
-  padding: .9em .8em;
+  padding: .7em .4em;
   margin: 0em 21em 9em;
   border: solid;
   border-color: $verde;
@@ -500,7 +520,8 @@ body{
   @include respond-to($phone){
     width: 193px ;
     height: 77px;
-    margin: 0em 3.6em 1.5em;
+    padding: 0.7em 0.4em;
+    margin: 0em 3.7em 2em;
   }
   @include respond-to($tablet-landscape){
     margin: 0em 13em 5em;
@@ -510,6 +531,7 @@ body{
 .textBoton{
   font-size: 18pt;
   color: $azul;
+  font-family: 'Righteous';
 }
 
 .circulo {
@@ -554,7 +576,7 @@ body{
 
 .containerRegistro{
   width: 1256px;
-  height: 28em;
+  height: 35em;
   background-color:  $azul;
   border-radius: 3em;
   @include respond-to($phone){
@@ -565,6 +587,7 @@ body{
   }
   @include respond-to($tablet-landscape){
     width: 42em;
+    height: 34em;
   }
 }
 
@@ -604,25 +627,27 @@ body{
       padding: 0em 5.5em 1.1em 0;
   }
   @include respond-to($tablet-landscape){
-    padding: 1em 7.5em 1.1em 0;
+    padding: 3em 7.5em 10.1em 0em;
   }
 }
 
 .containerResumen{
   width: 1256px;
-  height: 45em;
+  height: 58em;
   background-color: $azul;
   border-radius: 3em;
   padding: 0 2.5em 0 2em;
   margin: 0 0 5em;
   @include respond-to($phone){
     width: 17em;
-    height: 35em;
+    height: 37em;
     padding: 0 1.5em 0 1em;
     margin: 0 0 2.7em;
   }
   @include respond-to($tablet-landscape){
     width:42em;
+    height: 55em;
+    margin: 0 0 3em;
   }
 }
 
@@ -642,8 +667,8 @@ body{
 
 .containerConfInfo{
   width: 78.5em;
-  height: 3.4em;
-  padding: 0em 2em 0em 2em;
+  height: 5.4em;
+  padding: 1em 2em 0em 2em;
   @include respond-to($phone){
     width: 14.5em;
     height: 5em;
@@ -651,6 +676,7 @@ body{
   }
   @include respond-to($tablet-landscape){
     width: 41em;
+    height: 5.4em;
   }
 }
 
@@ -661,6 +687,7 @@ body{
   text-align: center;
   padding: .4em 0 .4em 0;
   border-bottom: solid;
+  font-family: 'Trade Winds';
   @include respond-to($phone){
     font-size: 12pt;
     border-bottom: 2px solid;
@@ -676,6 +703,7 @@ body{
   font-size: 18pt;
   color: $crema;
   padding: 0;
+  font-family: 'Quicksand', sans-serif;
   @include respond-to($phone){
     font-size: 9pt;
   }
@@ -691,6 +719,7 @@ body{
     font-size: 10pt;
     padding: 0 2em 0 0 ;
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
   }
   @include respond-to($tablet-landscape){
     font-size: 16pt;
@@ -701,6 +730,7 @@ body{
   font-size: 26pt;
   color: $crema;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
   @include respond-to($phone){
     font-size: 12pt;
   }
@@ -709,7 +739,7 @@ body{
   }
 }
 
-.submit{
+.numPer{
   height: 42px;
   width: 308px;
   border-radius: 1em;
@@ -736,7 +766,7 @@ body{
 }
 
 
-.submitPad{
+.numPerPad{
   @include respond-to($phone){
     margin: 0 0 0 1.3em;
   }
@@ -759,7 +789,12 @@ body{
 }
 
 .qr{
-  padding: .4em 0em 0 10.5em;
+  padding: .4em 0em 0 9.5em;
+  @include respond-to($phone){
+    padding: 0;
+    width: 1.5em;
+    margin: 0em 0 0 2em;
+  }
   @include respond-to($tablet-landscape){
     padding: .4em 0em 0 3.3em;
   }
@@ -774,6 +809,7 @@ body{
   text-align: center;
   font-size: 12pt;
   color: $crema;
+  font-family: 'Quicksand', sans-serif;
 @include respond-to($phone){
   font-size: 0pt;
   text-align: left;

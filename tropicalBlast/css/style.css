@@ -4,15 +4,12 @@ body {
 
 .logo {
   background-image: url(../imgs/Logo.png);
-  width: 1.7em;
+  width: 3.1em;
   height: 1.7em;
+  background-repeat: no-repeat;
 }
 
 .nav-link {
-  color: #FFFBDF;
-}
-
-.navbar-nav {
   color: #FFFBDF;
 }
 
@@ -41,7 +38,7 @@ a {
   background-color: #334443;
 }
 
-.photo {
+.photoHeader {
   background-image: url(../imgs/Intro.jpg);
   width: 100%;
   height: 287px;
@@ -49,7 +46,7 @@ a {
   padding: 1em 16.5em;
 }
 @media only screen and (max-width: 480px) {
-  .photo {
+  .photoHeader {
     height: 152px;
     padding: 0;
   }
@@ -59,6 +56,7 @@ a {
   color: #34656D;
   border-bottom: 5px solid #FFFBDF;
   margin: 2em 0.6em 1em;
+  font-family: "Trade Winds";
 }
 @media only screen and (max-width: 480px) {
   .titles {
@@ -122,6 +120,7 @@ a {
   .containerActivity1 {
     width: 96px;
     height: 208px;
+    background-image: url(../imgs/artista6.jpg);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -141,6 +140,7 @@ a {
   .containerActivity2 {
     width: 96px;
     height: 208px;
+    background-image: url(../imgs/artista6.jpg);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -160,6 +160,7 @@ a {
   .containerActivity3 {
     width: 96px;
     height: 208px;
+    background-image: url(../imgs/artista6.jpg);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -181,7 +182,8 @@ a {
 @media only screen and (max-width: 480px) {
   .containerInfo {
     height: 10px;
-    margin: 7.5em 0 0 0;
+    margin: 5.5em 0 0 0;
+    padding: 0 0.5em;
   }
 }
 
@@ -193,98 +195,7 @@ a {
 @media only screen and (max-width: 480px) {
   .containerSubAct {
     height: 1em;
-  }
-}
-
-.subTitle {
-  font-size: 25pt;
-  color: #FFFBDF;
-  text-align: center;
-}
-@media only screen and (max-width: 480px) {
-  .subTitle {
-    font-size: 9pt;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .subTitle {
-    font-size: 16pt;
-  }
-}
-
-.textInfo {
-  font-size: 16pt;
-  color: #FFFBDF;
-}
-@media only screen and (max-width: 480px) {
-  .textInfo {
-    font-size: 9pt;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .textInfo {
-    font-size: 14pt;
-  }
-}
-
-.textInfoDark {
-  font-size: 16pt;
-  color: #34656D;
-}
-@media only screen and (max-width: 480px) {
-  .textInfoDark {
-    font-size: 9pt;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .textInfoDark {
-    font-size: 14pt;
-  }
-}
-
-.text {
-  font-size: 12pt;
-  color: #FFFBDF;
-}
-@media only screen and (max-width: 480px) {
-  .text {
-    font-size: 9pt;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .text {
-    font-size: 12pt;
-  }
-}
-
-.textDark {
-  font-size: 12pt;
-  color: #34656D;
-}
-@media only screen and (max-width: 480px) {
-  .textDark {
-    font-size: 9pt;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .textDark {
-    font-size: 12pt;
-  }
-}
-
-.textDetail {
-  font-size: 21pt;
-  color: #FFFBDF;
-  text-align: center;
-}
-@media only screen and (max-width: 480px) {
-  .textDetail {
-    font-size: 9pt;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .textDetail {
-    font-size: 12pt;
+    margin: 0.5em 0em 1em 0;
   }
 }
 
@@ -341,9 +252,10 @@ a {
 }
 @media only screen and (max-width: 480px) {
   .containerSubAct4 {
-    width: 106px;
+    width: 115px;
     height: 66px;
     margin: 0;
+    padding: 0 0.1em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -363,8 +275,9 @@ a {
 }
 @media only screen and (max-width: 480px) {
   .containerSubAct7 {
-    width: 106px;
+    width: 115px;
     height: 66px;
+    padding: 0 0.1em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -411,27 +324,140 @@ a {
 .containerFecha {
   margin: 0 0 0 -9px;
 }
+@media only screen and (max-width: 480px) {
+  .containerFecha {
+    margin: 0 0 0 -1.3em;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .containerFecha {
-    margin: 0 0 0 -0.5em;
+    margin: 0 0 0 -2.5em;
   }
 }
 
 .containerFechaLarge {
   margin: 0 0 0 2.7em;
 }
+@media only screen and (max-width: 480px) {
+  .containerFechaLarge {
+    margin: 0 0 0 -1.4em;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .containerFechaLarge {
-    margin: 0 0 0 -0.2em;
+    margin: 0 0 0 -1.2em;
   }
 }
 
 .containerFechaSmall {
   margin: 0 0 0 0.4em;
 }
+@media only screen and (max-width: 480px) {
+  .containerFechaSmall {
+    margin: 0 0 0 -1.3em;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .containerFechaSmall {
-    margin: 0 0 0 -1.7em;
+    margin: 0 0 0 -1.9em;
+  }
+}
+
+.subTitle {
+  font-size: 25pt;
+  color: #FFFBDF;
+  text-align: center;
+  font-family: "Righteous";
+}
+@media only screen and (max-width: 480px) {
+  .subTitle {
+    font-size: 10pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .subTitle {
+    font-size: 16pt;
+  }
+}
+
+.textInfo {
+  font-size: 16pt;
+  color: #FFFBDF;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textInfo {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textInfo {
+    font-size: 14pt;
+  }
+}
+
+.textInfoDark {
+  font-size: 16pt;
+  color: #34656D;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textInfoDark {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textInfoDark {
+    font-size: 14pt;
+  }
+}
+
+.text {
+  font-size: 12pt;
+  color: #FFFBDF;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .text {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .text {
+    font-size: 12pt;
+  }
+}
+
+.textDark {
+  font-size: 12pt;
+  color: #34656D;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textDark {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textDark {
+    font-size: 12pt;
+  }
+}
+
+.textDetail {
+  font-size: 21pt;
+  color: #FFFBDF;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textDetail {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textDetail {
+    font-size: 12pt;
   }
 }
 
@@ -471,7 +497,7 @@ a {
   }
 }
 
-.containerPago {
+.containerCosto {
   height: 69px;
   width: 241px;
   background-color: #34656D;
@@ -480,14 +506,14 @@ a {
   opacity: 75%;
 }
 @media only screen and (max-width: 480px) {
-  .containerPago {
+  .containerCosto {
     height: 2.9em;
     width: 7em;
     margin: 3.7em 0em 0 15em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-  .containerPago {
+  .containerCosto {
     height: 3em;
     width: 10em;
     margin: 10em 0em 0 21em;
@@ -579,7 +605,7 @@ a {
   height: 77px;
   background-color: #FFFBDF;
   border-radius: 1.5em;
-  padding: 0.9em 0.8em;
+  padding: 0.7em 0.4em;
   margin: 0em 21em 9em;
   border: solid;
   border-color: #76bd9c;
@@ -589,7 +615,8 @@ a {
   .botonRegistrarse {
     width: 193px;
     height: 77px;
-    margin: 0em 3.6em 1.5em;
+    padding: 0.7em 0.4em;
+    margin: 0em 3.7em 2em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -601,6 +628,7 @@ a {
 .textBoton {
   font-size: 18pt;
   color: #34656D;
+  font-family: "Righteous";
 }
 
 .circulo {
@@ -647,7 +675,7 @@ a {
 
 .containerRegistro {
   width: 1256px;
-  height: 28em;
+  height: 35em;
   background-color: #34656D;
   border-radius: 3em;
 }
@@ -662,6 +690,7 @@ a {
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .containerRegistro {
     width: 42em;
+    height: 34em;
   }
 }
 
@@ -711,13 +740,13 @@ a {
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .nextbackBttn {
-    padding: 1em 7.5em 1.1em 0;
+    padding: 3em 7.5em 10.1em 0em;
   }
 }
 
 .containerResumen {
   width: 1256px;
-  height: 45em;
+  height: 58em;
   background-color: #34656D;
   border-radius: 3em;
   padding: 0 2.5em 0 2em;
@@ -726,7 +755,7 @@ a {
 @media only screen and (max-width: 480px) {
   .containerResumen {
     width: 17em;
-    height: 35em;
+    height: 37em;
     padding: 0 1.5em 0 1em;
     margin: 0 0 2.7em;
   }
@@ -734,6 +763,8 @@ a {
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .containerResumen {
     width: 42em;
+    height: 55em;
+    margin: 0 0 3em;
   }
 }
 
@@ -757,8 +788,8 @@ a {
 
 .containerConfInfo {
   width: 78.5em;
-  height: 3.4em;
-  padding: 0em 2em 0em 2em;
+  height: 5.4em;
+  padding: 1em 2em 0em 2em;
 }
 @media only screen and (max-width: 480px) {
   .containerConfInfo {
@@ -770,6 +801,7 @@ a {
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .containerConfInfo {
     width: 41em;
+    height: 5.4em;
   }
 }
 
@@ -780,6 +812,7 @@ a {
   text-align: center;
   padding: 0.4em 0 0.4em 0;
   border-bottom: solid;
+  font-family: "Trade Winds";
 }
 @media only screen and (max-width: 480px) {
   .titlesRegistro {
@@ -799,6 +832,7 @@ a {
   font-size: 18pt;
   color: #FFFBDF;
   padding: 0;
+  font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 480px) {
   .textRegistro {
@@ -820,6 +854,7 @@ a {
     font-size: 10pt;
     padding: 0 2em 0 0;
     text-align: center;
+    font-family: "Quicksand", sans-serif;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -832,6 +867,7 @@ a {
   font-size: 26pt;
   color: #FFFBDF;
   text-align: center;
+  font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 480px) {
   .textCostoTotal {
@@ -844,7 +880,7 @@ a {
   }
 }
 
-.submit {
+.numPer {
   height: 42px;
   width: 308px;
   border-radius: 1em;
@@ -852,13 +888,13 @@ a {
   text-align: center;
 }
 @media only screen and (max-width: 480px) {
-  .submit {
+  .numPer {
     height: 12px;
     width: 31px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-  .submit {
+  .numPer {
     height: 27px;
     width: 115px;
   }
@@ -879,12 +915,12 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
-  .submitPad {
+  .numPerPad {
     margin: 0 0 0 1.3em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-  .submitPad {
+  .numPerPad {
     margin: 0 0 0 1.3em;
   }
 }
@@ -905,7 +941,14 @@ a {
 }
 
 .qr {
-  padding: 0.4em 0em 0 10.5em;
+  padding: 0.4em 0em 0 9.5em;
+}
+@media only screen and (max-width: 480px) {
+  .qr {
+    padding: 0;
+    width: 1.5em;
+    margin: 0em 0 0 2em;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .qr {
@@ -917,6 +960,7 @@ a {
   text-align: center;
   font-size: 12pt;
   color: #FFFBDF;
+  font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 480px) {
   .footertext {
