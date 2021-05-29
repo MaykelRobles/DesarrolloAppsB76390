@@ -53,7 +53,7 @@
     <!--Main-->
     <main>
         <!--Foto top-->
-        <div class="photoHeader"></div>
+        <div class="photoHeader adpt"></div>
         <!--Fin de foto rop-->
 
         <!--Titulo-->
@@ -129,7 +129,7 @@
         <!--BLOQUE 2-->
         <div class="containerActivityA">
             <div class="row spacer">
-                <div class="col">
+                <a class="col" href="./html/detail.html">
                     <div class="containerSubAct5">
                         <div class="containerSubAct">
                             <p class="subTitle">Titulo</p>
@@ -149,9 +149,9 @@
                         <p class="textInfoDark">Lugar:<spam class="textDark"> En este lugar no te vas a perder<spam>
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="col">
+                <a class="col" href="./html/detail.html">
                     <div class="containerSubAct4">
                         <div class="containerSubAct">
                             <p class="subTitle">Titulo</p>
@@ -168,11 +168,11 @@
                         </div>
                     </div>
                     <div class="containerLugarSmall">
-                        <p class="textInfoDark lugarpad">Lugar:<spam class="textDark"> En este lugar no te vas a perder
+                        <p class="textInfoDark">Lugar:<spam class="textDark"> En este lugar no te vas a perder
                                 <spam>
                         </p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -181,7 +181,7 @@
         <div class="containerActivityB">
             <div class="row spacer">
 
-                <div class="col-4">
+                <a class="col-4" href="./html/detail.html">
                     <div class="containerSubAct7">
                         <div class="containerSubAct">
                             <p class="subTitle">Titulo</p>
@@ -201,9 +201,9 @@
                         <p class="textInfoDark">Lugar: <spam class="textDark"> En este lugar no te vas a perder<spam>
                         </p>
                     </div>
-                </div>
+                </a>
 
-                <div class="col">
+                <a class="col" href="./html/detail.html">
                     <div class="containerSubAct6">
                         <div class="containerSubAct">
                             <p class="subTitle">Titulo</p>
@@ -220,10 +220,10 @@
                         </div>
                     </div>
                     <div class="containerLugar">
-                        <p class="textInfoDark">Lugar: <spam class="textDark"> En este lugar no te vas a perder<spam>
+                        <p class="textInfoDark lugarpad">Lugar: <spam class="textDark"> En este lugar no te vas a perder<spam>
                         </p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </main>

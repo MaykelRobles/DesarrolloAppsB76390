@@ -53,6 +53,8 @@ body{
     width: 100%;
     height: 287px;
     background-repeat: none;
+    background-size: cover;
+    background-position: center;
     padding: 1em 16.5em;
     @include respond-to($phone){
       height: 152px;
@@ -118,10 +120,11 @@ body{
     overflow:hidden;
     background-image: url(../imgs/artista1.jpg);
     border-radius: 1em;
+    background-size: cover;
+    background-position: center;
     @include respond-to($phone){
-      width: 96px;
+      width: 105px;
       height: 208px;
-      background-image: url(../imgs/artista6.jpg);
     }
     @include respond-to($tablet-landscape){
       width: 215px;
@@ -134,13 +137,20 @@ body{
   overflow:hidden;
   background-image: url(../imgs/artista2.jpg);
   border-radius: 1em;
+  background-size: cover;
+  background-position: center;
   @include respond-to($phone){
-    width: 96px;
+    width: 105px;
     height: 208px;
-    background-image: url(../imgs/artista6.jpg);
   }
   @include respond-to($tablet-landscape){
     width: 215px;
+  }
+}
+
+p{
+  @include respond-to($phone){
+  margin: 0;
   }
 }
 
@@ -150,10 +160,11 @@ body{
   overflow:hidden;
   background-image: url(../imgs/artista3.png);
   border-radius: 1em;
+  background-size: cover;
+  background-position: center;
   @include respond-to($phone){
-    width: 96px;
+    width: 105px;
     height: 208px;
-    background-image: url(../imgs/artista6.jpg);
   }
   @include respond-to($tablet-landscape){
     width: 215px;
@@ -161,7 +172,7 @@ body{
 }
 
 .lugarpad{
-  padding: 0 0 0 1.1em;
+  padding: 0 0 0 5.3em;
 }
 
 
@@ -172,7 +183,7 @@ body{
     padding: 0 1em;
     @include respond-to($phone){
       height: 10px;
-      margin: 5.5em 0 0 0;
+      margin: 6.5em 0 0 0;
       padding: 0 .5em;
     }
   }
@@ -197,8 +208,10 @@ body{
     padding: 0 1em;
     background-image: url(../imgs/artista5.jpg);
     border-radius: 1em;
+    background-size: cover;
+    background-position: center;
     @include respond-to($phone){
-      width: 190px;
+      width: 157px;
       height: 66px;
     }
     @include respond-to($tablet-landscape){
@@ -213,10 +226,12 @@ body{
   padding: 0 1em;
   background-image: url(../imgs/artista6.jpg);
   border-radius: 1em;
+  background-size: cover;
+  background-position: center;
   @include respond-to($phone){
-    width: 190px;
+    width: 157px;
     height: 66px;
-    margin: 0em 0em 0em 12px;
+    margin: 0em 0em 0em 3.7em;
   }
   @include respond-to($tablet-landscape){
     width: 458px;
@@ -231,11 +246,12 @@ body{
     border-radius: 1em;
     padding: 0 1em;
     margin: 0em 0 0 1.5em;
+    background-size: cover;
+    background-position: center;
     @include respond-to($phone){
-      width: 115px;
+      width: 157px;
       height: 66px;
       margin: 0;
-      padding: 0 .1em;
     }
     @include respond-to($tablet-landscape){
       width: 215px;
@@ -250,10 +266,11 @@ body{
   background-image: url(../imgs/artista7.jpg);
   border-radius: 1em;
   padding: 0 1em;
+  background-size: cover;
+  background-position: center;
   @include respond-to($phone){
-    width: 115px;
+    width: 157px;
     height: 66px;
-    padding: 0 .1em;
   }
   @include respond-to($tablet-landscape){
     width: 215px;
@@ -265,6 +282,8 @@ body{
   height: 4.4em;
   overflow:hidden;
   margin: 0em .9em 0em 0em;
+      background-size: cover;
+    background-position: center;
   @include respond-to($phone){
     width: 10em;
     height: 2em;
@@ -300,7 +319,7 @@ body{
 .containerFechaLarge{
   margin: 0 0 0 2.7em;
   @include respond-to($phone){
-    margin: 0 0 0 -1.4em;
+    margin: 0 0 0 -1.8em;
   }
   @include respond-to($tablet-landscape){
     margin: 0 0 0 -1.2em;
@@ -384,10 +403,10 @@ body{
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   @include respond-to($phone){
-    font-size: 9pt;
+    font-size: 12pt;
   }
   @include respond-to($tablet-landscape){
-    font-size: 12pt;
+    font-size: 16pt;
   }
 }
 
@@ -478,6 +497,8 @@ body{
   background-color: $azul;
   padding: 2em 3em;
   border-radius: 1em;
+  background-size: cover;
+  background-position: center;
   @include respond-to($phone){
     width: 20em;
     height: 25em;
@@ -542,6 +563,8 @@ body{
   border-radius: 50%;
   background-image: url(../imgs/artista6.jpg);
   padding: 1em 0;
+  background-size: cover;
+  background-position: center;
   @include respond-to($phone){
     width: 3em ;
     height: 3em;
